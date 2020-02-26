@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet">
     <title>Home | Fluentify</title>
 </head>
 
@@ -89,14 +90,21 @@
       </div>
     </section>
 
-    <section id="structure">
-      <div>
-        titolo qui
+    <section id="structure" class="clearfix">
+      <div class="float-left">
+        <h3>Struttura un piano</h3>
       </div>
-      <div>
-        <h3>Sono</h3>
-        <span>Seleziona (icona fontawesome)</span>
-        <a href=""></a>
+      <div class="float-left">
+        <h4 class="float-left">Sono</h4>
+        <div class="select">
+          <select class="float-left" name="sex">
+            <option value="seleziona" selected>Seleziona <i class="fas fa-caret-down"></i></option>
+            <option value="uomo">Uomo</option>
+            <option value="donna">Donna</option>
+            <option value="altro">Altro</option>
+          </select>
+        </div>
+        <a class="btn btn-green btn-large" href="#">visualizza il tuo piano</a>
       </div>
     </section>
 
