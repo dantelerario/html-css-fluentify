@@ -267,14 +267,15 @@ h2.big {
 }
 
 .select {
-  margin-left: -300px;
-  vertical-align: middle;
+  position: relative;
 }
 
 .select::after {
   font-family: "Font Awesome 5 Free";
-  content: '\f0d7';
-  display: inline-block;
+  content: '\f107';
+  position: absolute;
+  top: 6px;
+  right: 200px;
   vertical-align: middle;
   font-weight: 700;
   margin: 0;
@@ -291,6 +292,7 @@ h2.big {
   background-color: transparent;
   border-radius: 0;
   line-height: 20px;
+  cursor: pointer;
 }
 
 
